@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+img{
+    height: 90vh;
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.texto-sobreposto{
+    position: absolute;
+    top: 5.3%;
+    left: 52%;
+    height: 90vh;
+    width: 38%;
+    background-color: rgba(243, 240, 240, 0.281);
+    border-radius: 20px;
+}
+
+form{
+    
+}

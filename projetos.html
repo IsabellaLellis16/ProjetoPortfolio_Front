@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alunos</title>
+    <link rel="stylesheet" href="projetos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <p><a href="menu.html">Menu</a></p>
+                <li><a href="turmas.html">Turmas</a></li>
+
+                <img src="img/logo.png" alt="Logo">
+
+                <li><a href="alunos.html">Alunos</a></li>
+                <li style="text-decoration: underline rgb(80, 56, 45);"><a href="projetos.html">Projetos</a></li>
+            </ul>
+
+            <div>
+                <img src="img/perfil.jpeg" alt="Perfil" class="img-perfil">
+            </div>
+
+            <button class="btn-sair"><a href="index.html">Sair</a></button>
+        </nav>
+    </header>
+    <section>
+
+
+
+        <form action="">
+            <h2>Cadastrar Projeto:</h2>
+            <fieldset>
+                <div class="titulo">
+                    <label for="titulo"><b>Título:</b></label>
+                    <div class="input-item">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="titulo" placeholder="Insira o título do projeto...">
+                    </div>
+                </div>
+
+                <div class="descricao">
+                    <label for="descricao"><b>Descrição do projeto:</b></label>
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <textarea id="descricao" rows="5" placeholder="Insira uma descrição..."></textarea>
+                    </div>
+                </div>
+
+                <div class="link">
+                    <label for="link"><b>Link do projeto:</b></label>
+                    <div class="input-item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="text" id="link" placeholder="Insira o link do projeto...">
+                    </div>
+                </div>
+            </fieldset>
+
+            <button class="btn-cadastro"><a href="#"></a><b>Cadastrar</b></button>
+
+        </form>
+    </section>
+
+
+    <h3>Lista de Projetos:</h3>
+
+
+    <table>
+        <thead>
+            <th>Título</th>
+            <th>Descrição</th>
+            <th>Link</th>
+            <th class="acoes">Ações</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Music Play - ISFY</td>
+                <td>Inspiração da interface web do Spotify adaptada, utilizando 
+                    um design de modo escuro (dark mode) com tipografia e ícones personalizados em tons de roxo.</td>
+                    <td><a href="https://isabellalellis16.github.io/Players-da-Isabella-L-llis/">https://isabellalellis16.github.io/Players-da-Isabella-L-llis/</a></td>
+                <td class="lapis">✏️🗑️</td>
+            </tr>
+
+            <tr>
+                <td>Pokémon</td>
+                <td>Ambientado na franquia Pokémon, focando especificamente no momento icônico de todo início de jornada nos 
+                    jogos da franquia: a escolha do Pokémon inicial.</td>
+                <td><a href="https://isabellalellis16.github.io/Pok-mon/">https://isabellalellis16.github.io/Pok-mon/</a></td>
+                <td class="lapis">✏️🗑️</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

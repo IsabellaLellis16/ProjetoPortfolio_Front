@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #ffffff;
+    background-color: #5e483e;
 }
 
 img{
@@ -18,16 +18,83 @@ img{
     border-radius: 20px;
 }
 
-.texto-sobreposto{
+.fundo{
     position: absolute;
     top: 5.3%;
     left: 52%;
     height: 90vh;
     width: 38%;
-    background-color: rgba(243, 240, 240, 0.281);
+    background-color: rgba(255, 255, 255, 0.822);
     border-radius: 20px;
 }
 
+h1{
+    padding:120px 0 40px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-decoration: underline rgb(80, 56, 45);
+    display: flex;
+    justify-content: center;
+}
+
 form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0 0 0;
+}
+
+label{
+    font-size: 25px;
+}
+
+.usuario{
+    padding: 0 0 25px 0;
+}
+
+fieldset{
+    margin-bottom: 50px;
+    border: none;
+}
+
+section input{
+    padding: 8px; 
+    border-radius: 40px;
+    cursor: pointer;
+    width: 400px;
+}
+
+button{
+    width: 430px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px solid rgb(80, 56, 45);
+    background-color: rgb(80, 56, 45);
+    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     
+    
+}
+
+button:hover{
+    background-color: rgb(59, 45, 36);
+    border-color: rgb(59, 45, 36);
+}
+
+.input-item{
+    width: fit-content;
+    border: 2px solid rgb(56, 39, 31);
+    padding: 8px;
+    border-radius: 40px;
+    background-color: #ffffff;
+}
+.input-item:focus-within{
+    border:  2px solid rgb(59, 45, 36);
+}
+
+input{
+    border: none;
+    outline: none;
 }

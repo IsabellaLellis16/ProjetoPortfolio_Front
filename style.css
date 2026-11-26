@@ -65,7 +65,7 @@ section input{
     width: 400px;
 }
 
-button{
+.btn-entrar{
     width: 430px;
     height: 40px;
     cursor: pointer;
@@ -74,13 +74,16 @@ button{
     border-radius: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    
-    
+    font-weight: bold;
+    color: black;
 }
 
-button:hover{
+.btn-entrar:hover{
     background-color: #351E13;
     border-color: #351E13;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
 }
 
 .input-item{

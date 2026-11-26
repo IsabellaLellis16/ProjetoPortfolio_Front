@@ -3,6 +3,20 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(255, 239, 224);
+}
+
+.menu-lateral{
+    width: 240px;
+    min-height: 100%;
+    background-color: rgb(255, 239, 224);
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -14,14 +28,14 @@ nav{
 img{
    width: 110px;
    height: 110px;
-   border:#523d2b outset 2px;
+   border:#5E3216 outset 2px;
    border-radius: 100%;
 }
 
 .img-perfil{
     width: 40px;
     height: 40px;
-    border:#523d2b outset 0.1px;
+    border:#5E3216 outset 0.1px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -43,7 +57,7 @@ ul{
 
 p{
     font-size: 40px;
-    text-decoration: underline #523d2b;
+    text-decoration: underline #5E3216;
     font-family: 'Times New Roman', Times, serif;
     margin-top: -10px;
 }
@@ -55,8 +69,8 @@ li{
 }
 
 .btn-sair{
-    background-color: #684e38;
-    border: 2px solid #684e38;
+    background-color: #814820;
+    border: 2px solid #814820;
     color: black;
     padding: 8px 24px;
     border-radius: 8px;
@@ -65,8 +79,8 @@ li{
 }
 
 .btn-sair:hover{
-    background-color: #423224;
-    border: 2px solid #423224;
+    background-color: #5E3216;
+    border: 2px solid #5E3216;
     color: black;
     padding: 8px 24px;
     border-radius: 8px;
@@ -75,8 +89,8 @@ li{
 }
 
 header{
-    background-color: white;
+    background-color: rgb(255, 239, 224);
 }
 header:hover{
-    background-color: #f1e195;
+    background-color: #E3AA56;
 }

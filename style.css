@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #5e483e;
+    background-color: rgb(255, 239, 224);
 }
 
 img{
@@ -32,7 +32,7 @@ h1{
     padding:120px 0 40px 0;
     font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
-    text-decoration: underline rgb(80, 56, 45);
+    text-decoration: underline #5E3216;
     display: flex;
     justify-content: center;
 }
@@ -69,8 +69,8 @@ button{
     width: 430px;
     height: 40px;
     cursor: pointer;
-    border: 2px solid rgb(80, 56, 45);
-    background-color: rgb(80, 56, 45);
+    border: 2px solid #5E3216;
+    background-color: #5E3216;
     border-radius: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -79,19 +79,19 @@ button{
 }
 
 button:hover{
-    background-color: rgb(59, 45, 36);
-    border-color: rgb(59, 45, 36);
+    background-color: #351E13;
+    border-color: #351E13;
 }
 
 .input-item{
     width: fit-content;
-    border: 2px solid rgb(56, 39, 31);
+    border: 2px solid #351E13;
     padding: 8px;
     border-radius: 40px;
     background-color: #ffffff;
 }
 .input-item:focus-within{
-    border:  2px solid rgb(59, 45, 36);
+    border:  2px solid #351E13;
 }
 
 input{
